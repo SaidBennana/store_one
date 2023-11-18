@@ -1,7 +1,7 @@
-class Prodacts {
+class Prodact {
   final int id, price;
   final String title, subTitle, description, image;
-  Prodacts(
+  Prodact(
       {required this.id,
       required this.price,
       required this.title,
@@ -10,8 +10,8 @@ class Prodacts {
       required this.image});
 }
 
-List<Prodacts> Prodactss = [
-  Prodacts(
+List<Prodact> Prodacts = [
+  Prodact(
     id: 1,
     price: 59,
     title: "سماعات لاسلكية",
@@ -20,7 +20,7 @@ List<Prodacts> Prodactss = [
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
-  Prodacts(
+  Prodact(
     id: 2,
     price: 1099,
     title: "جهاز موبايل",
@@ -29,7 +29,7 @@ List<Prodacts> Prodactss = [
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
-  Prodacts(
+  Prodact(
     id: 3,
     price: 39,
     title: "نظارات ثلاثية الأبعاد",
@@ -38,7 +38,7 @@ List<Prodacts> Prodactss = [
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
-  Prodacts(
+  Prodact(
     id: 4,
     price: 56,
     title: "سماعات",
@@ -47,7 +47,7 @@ List<Prodacts> Prodactss = [
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
-  Prodacts(
+  Prodact(
     id: 5,
     price: 68,
     title: "مسجل صوت",
@@ -56,9 +56,27 @@ List<Prodacts> Prodactss = [
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
-  Prodacts(
+  Prodact(
     id: 6,
     price: 39,
+    title: "كاميرات كمبيوتر",
+    subTitle: "بجودة ودقة صورة عالية",
+    image: "images/camera.png",
+    description:
+        "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
+  ),
+  Prodact(
+    id: 7,
+    price: 60,
+    title: "كاميرات كمبيوتر",
+    subTitle: "بجودة ودقة صورة عالية",
+    image: "images/camera.png",
+    description:
+        "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
+  ),
+  Prodact(
+    id: 8,
+    price: 120,
     title: "كاميرات كمبيوتر",
     subTitle: "بجودة ودقة صورة عالية",
     image: "images/camera.png",
